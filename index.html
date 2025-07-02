@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jarvis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Jarvis Giriş</h1>
+    <div id="login">
+      <input type="password" id="password" placeholder="Şifre: Emin.1073." />
+      <button onclick="checkPassword()">Giriş Yap</button>
+      <p id="loginStatus"></p>
+    </div>
+    <div id="jarvis" style="display:none;">
+      <h2>Merhaba Stark</h2>
+      <button onclick="startListening()">🎙️ Konuş</button>
+      <p id="result">Jarvis hazır.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
